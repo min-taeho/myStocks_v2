@@ -8,7 +8,7 @@
 
 # 개발목표
 1. Spring JPA 적용
-2. View는 SP → Vue → Angular 를 차례대로 적용
+2. View는 JSP → Vue → Angular 를 차례대로 적용
 3. 설계 및 개발결과를 레퍼런스로 활용할 수 있도록 정리
 
 ※ 전자정부프레임웍 기반에 MyBatis, JSP에 익숙해져 있는 스킬을 레벨업 하기 위해 스프링부트 기반에 JPA를 적용한 App을 개발하고 설계를 문서화한다.<br/>
