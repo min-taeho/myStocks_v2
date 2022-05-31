@@ -7,7 +7,10 @@
           <h2>Portfolio</h2>
         </b-col>
         <b-col align="start">
-          <b-form-select class="mt-3"  v-model="selectedPortfolioId" :options="options"></b-form-select>
+          <b-form-select class="mt-3" 
+                         v-model="selectedPortfolioId" 
+                         :options="options"
+                         @change="onChange()"></b-form-select>
         </b-col>
         <b-col align="end">
           <b-button class="mt-3" size="sm" variant="secondary" 
@@ -152,6 +155,9 @@
         })
 
       },
+      onChange() {
+        this.listRefreshRequest(this.selectedPortfolioId);
+      }
     
     },
   }

@@ -4,3 +4,6 @@
 /build/classes/java/main/
 /build/classes/java/test/
 /out/
+/src/front/node_modules/
+/src/front/npm-v6.12.1/
+/src/front/dist/

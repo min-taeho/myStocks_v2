@@ -230,7 +230,7 @@
             let tmp_items = []
             res.data.forEach((element, index) => {
 
-              console.log('PortfolioList::getData::index='+index+', element='+JSON.stringify(element))
+              //console.log('PortfolioList::getData::index='+index+', element='+JSON.stringify(element))
               
               var obj = {
                 portfolioStockId: element.portfolioStockId,
